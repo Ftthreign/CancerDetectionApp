@@ -5,4 +5,11 @@
     <string name="gallery">Galeri</string>
     <string name="analyze">Analyze</string>
     <string name="result">Hasil Analisis</string>
+
+    // app
+    <string name="title_home_bar">Home</string>
+    <string name="title_history_bar">History</string>
+    <string name="title_news_bar">News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
