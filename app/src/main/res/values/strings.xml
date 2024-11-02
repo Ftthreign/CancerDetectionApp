@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+
+    // app
+    <string name="title_home_bar">Home</string>
+    <string name="title_history_bar">History</string>
+    <string name="title_news_bar">News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_news">News Image</string>
+    <string name="preview_image">Image Preview</string>
+    <string name="prompt_to_input_image">Please Input your image</string>
+    <string name="cancer_news">News About Cancer</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="analysis_results">Analyze Result</string>
+    <string name="image_target">Target Image</string>
+
+    // app message
+    <string name="classifier_failed">Image Classifier failed to initialize</string>
+
+</resources>
