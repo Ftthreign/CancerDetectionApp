@@ -11,7 +11,9 @@ interface ApiService {
         @Query("q")
         query : String = "cancer",
         @Query("category")
-        language : String = "health",
+        category : String = "health",
+        @Query("language")
+        language : String = "en",
         @Query("apiKey")
         apiKey : String = BuildConfig.API_KEY
     ) : NewsResponse

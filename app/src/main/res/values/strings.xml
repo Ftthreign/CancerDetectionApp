@@ -20,7 +20,9 @@
     <string name="save">Save</string>
     <string name="analysis_results">Analyze Result</string>
     <string name="image_target">Target Image</string>
-
+    <string name="result_text">%1$s %2$s</string>
+    <string name="item_result_history">Result: %1$s</string>
+    <string name="item_score_history">Confidence Score: %1$s</string>
     // app message
     <string name="classifier_failed">Image Classifier failed to initialize</string>
 

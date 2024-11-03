@@ -20,10 +20,10 @@ data class ArticlesItem(
 	val publishedAt: String,
 
 	@field:SerializedName("author")
-	val author: Any,
+	val author: String,
 
 	@field:SerializedName("urlToImage")
-	val urlToImage: Any,
+	val urlToImage: String,
 
 	@field:SerializedName("description")
 	val description: String,
