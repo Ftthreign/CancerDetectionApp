@@ -9,6 +9,7 @@ import com.dicoding.asclepius.R
 import com.dicoding.asclepius.data.local.entity.CancerHistoryEntity
 import com.dicoding.asclepius.databinding.ActivityResultBinding
 import com.dicoding.asclepius.helper.ImageClassifierHelper
+import com.dicoding.asclepius.view.fragment.HomeFragment
 import com.dicoding.asclepius.view.viewmodel.ResultViewModel
 import com.dicoding.asclepius.view.viewmodel.ViewModelFactory
 import org.tensorflow.lite.task.vision.classifier.Classifications
@@ -75,6 +76,13 @@ class ResultActivity : AppCompatActivity() {
                                         Toast.makeText(this@ResultActivity, "Result is saved to History", Toast.LENGTH_SHORT).show()
                                         finish()
                                     }
+                                }
+                                binding.closeButton.setOnClickListener {
+                                    supportFragmentManager
+                                        .beginTransaction()
+                                        .replace(R.id.fragment_home_container, HomeFragment())
+                                        .addToBackStack(null)
+                                        .commit()
                                 }
                             } else {
                                 Toast.makeText(this@ResultActivity, "No result Attached", Toast.LENGTH_SHORT).show()
