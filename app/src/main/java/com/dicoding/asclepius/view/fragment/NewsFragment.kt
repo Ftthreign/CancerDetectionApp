@@ -47,7 +47,6 @@ class NewsFragment : Fragment() {
                 }
                 is Result.Error -> {
                     binding.progressBar.visibility = View.GONE
-                    Log.e("error at ${NewsFragment::class.java.simpleName}", "error at fetch data")
                 }
                 is Result.Success -> {
                     binding.progressBar.visibility = View.GONE
